@@ -14,6 +14,10 @@ setup(
 
     packages=find_packages(),  # Automatically find packages in the directory
     install_requires=[ "pyyaml" ],
+    include_package_data=True,
+    package_data={
+        'currency_analyser': ['currencies.yaml'],
+    },
     classifiers=[
         'Development Status :: 3 - Alpha',  # Development status
         'Intended Audience :: Developers',
