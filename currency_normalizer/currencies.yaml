@@ -1,4 +1,4 @@
-#/currencies.yaml
+#/currency_normalizer/currencies.yaml
 
 USD:
   symbol: "$"

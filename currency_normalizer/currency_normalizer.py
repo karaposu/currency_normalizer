@@ -1,3 +1,5 @@
+# currency_normalizer/currency_normalizer.py
+
 import os
 import yaml
 

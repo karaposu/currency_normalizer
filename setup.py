@@ -1,3 +1,5 @@
+# this is setup.py
+
 from setuptools import setup, find_packages
 import setuptools
 import subprocess
@@ -5,7 +7,7 @@ import os
 
 setup(
     name='currency_normalizer',  # Package name
-    version='0.0.0',  # Version of your package
+    version='0.0.2',  # Version of your package
     author='Enes Kuzucu',  # Your name
 
     description='A module to normalize currency strings',  # Short description
@@ -16,7 +18,7 @@ setup(
     install_requires=[ "pyyaml" ],
     include_package_data=True,
     package_data={
-        'currency_analyser': ['currencies.yaml'],
+        'currency_normalizer': ['currencies.yaml'],
     },
     classifiers=[
         'Development Status :: 3 - Alpha',  # Development status
